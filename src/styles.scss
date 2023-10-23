@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#page {
+  min-height: 100vh; /* 1 */
+  display: flex; /* 2 */
+  flex-direction: column; /* 3 */
+}
+
+#content {
+  flex-grow: 1; /* 4 */
+}
